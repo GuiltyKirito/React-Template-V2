@@ -1,0 +1,78 @@
+[class^='el-icon-fa'],
+[class*='el-icon-fa'] {
+  display: inline-block;
+  font-size: inherit;
+  font: normal normal normal 1em/1 FontAwesome !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ant-menu-item .fa,
+.ant-menu-submenu-title .fa {
+  min-width: 14px;
+  margin-right: 8px;
+  -webkit-transition: font-size 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+    margin 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: font-size 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+    margin 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-menu-item .fa + span,
+.ant-menu-submenu-title .fa + span {
+  -webkit-transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 1;
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item .fa + span,
+.ant-menu-inline-collapsed
+  > .ant-menu-item-group
+  > .ant-menu-item-group-list
+  > .ant-menu-item
+  .fa
+  + span,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .fa + span {
+  max-width: 0;
+  display: inline-block;
+  opacity: 0;
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item .fa,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .fa,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .fa {
+  font-size: 16px;
+  line-height: 42px;
+  margin: 0;
+}
+
+.ant-menu-inline-collapsed-tooltip .fa {
+  display: none;
+}
+
+.notice-popover {
+  z-index: 999 !important;
+  width: 336px;
+}
+
+.notice-popover .ant-popover-inner-content {
+  padding: 0;
+}
+
+.notice-tabs .ant-tabs-nav-scroll {
+  text-align: center;
+}
+
+.notice-tabs .ant-tabs-bar {
+  margin-bottom: 4px;
+}
+
+.notice-item .ant-list-item-action {
+  margin-left: 24px;
+}
+
+td.center {
+  text-align: center;
+}

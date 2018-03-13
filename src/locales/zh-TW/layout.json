@@ -1,0 +1,42 @@
+{
+  "header": {
+    "logo": "系統名稱",
+    "setting": {
+      "logout": "登出"
+    }
+  },
+  "notice": {
+    "title": "訊息通知",
+    "emptyText": "暫無任何通知",
+    "item": {
+      "title": "詳細內容",
+      "sender": "寄送者",
+      "ok": "確認"
+    },
+    "close": {
+      "title": "刪除確認",
+      "content": "確定要刪除此訊息通知？"
+    },
+    "clear": {
+      "title": "刪除確認",
+      "content": "確定要刪除所有訊息通知？"
+    },
+    "list": {
+      "emptyText": "暫無資料",
+      "clear": "清除所有"
+    },
+    "socketio": {
+      "message": "訊息通知",
+      "description": "您有一則新訊息。"
+    }
+  },
+  "sidebar": {
+    "home": "Home"
+  },
+  "footer": {
+    "copyright": "Copyright © Ricky. All rights reserved"
+  },
+  "breadcrumb": {
+    "home": "首頁"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    "transform-decorators-legacy",
+    [
+      "react-css-modules",
+      {
+        "webpackHotModuleReloading": true,
+        "generateScopedName": "[path]__[name]___[local]"
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": true
+      }
+    ]
+  ]
+}
