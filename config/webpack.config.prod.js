@@ -14,7 +14,7 @@ const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 const lessToJs = require('less-vars-to-js');
-const themeVariables = lessToJs(fs.readFileSync(`${paths.appSrc}\\theme.less`, 'utf8'));
+const themeVariables = lessToJs(fs.readFileSync(paths.themePath, 'utf8'));
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
